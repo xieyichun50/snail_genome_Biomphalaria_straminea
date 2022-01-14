@@ -7,9 +7,9 @@ Procedure:
 5. run `plotall.sh` (output of `plotecho.sh`) to get all figures.
 
 Files:
-1. genome.fa: whole genome sequence.
-2. longest-gene.gtf: gtf generated in 1sequence_prep
-3. orthogues result in Folder OrthoFinder/$date/Orthologues/, tsv format.
+1. `genome.fa`: whole genome sequence.
+2. `longest-gene.gtf`: gtf generated in `1sequence_prep`
+3. orthogues result in Folder `OrthoFinder/$date/Orthologues/`, `.tsv` format.
 
 Software:
 1. samtools
