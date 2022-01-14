@@ -1,1 +1,2 @@
-# snail_genome_Biomphalaria_straminea
+# <i>Biomphalaria straminea</i> genome analysis
+
