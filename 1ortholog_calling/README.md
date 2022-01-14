@@ -5,7 +5,6 @@ Procedure:
 2. run orthofinder.sh to perform ortholog analysis
 
 Files:
-
 1. genome.gff/gff3: gene annotation file in gff or gff3 format
 2. protein.fasta: all protein sequence in fasta format
 
