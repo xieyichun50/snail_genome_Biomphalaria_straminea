@@ -1,5 +1,9 @@
 # Prepare longest protein sequence fasta file and ortholog calling.
 
+Procedure:
+1. run filter_longest_genes_from_gff*.sh to get the longest protein
+2. run orthofinder.sh to perform ortholog analysis
+
 Files:
 
 1. genome.gff/gff3: gene annotation file in gff or gff3 format
