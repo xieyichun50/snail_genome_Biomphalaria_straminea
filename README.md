@@ -1,0 +1,1 @@
+# snail_genome_Biomphalaria_straminea
