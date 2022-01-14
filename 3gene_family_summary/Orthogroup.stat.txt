@@ -1,0 +1,6 @@
+Speices	Achatina_immaculata	Biomphalaria_glabrata	Biomphalaria_straminea	Chrysomallon_squamiferum	Crassostrea_gigas	Cyclina_sinensis	Haliotis_rubra	Magallana_hongkongensis	Marisa_cornuarietis	Octopus_sinensis	Pinctada_fucata_martensii	Pomacea_canaliculata	Scapharca_Anadara_broughtonii
+Single-copy orthologs	555	555	555	555	555	555	555	555	555	555	555	555	555
+Multi-copy orthologs (all species)	6619	6575	7947	5430	6419	6930	7916	7543	5865	5251	6867	5830	6481
+Multi-copy orthologs (>1 species)	10746	15879	21771	7967	20759	12626	18107	27460	13159	7350	14104	12985	12788
+Unique paralogs	1774	292	5295	1233	1425	3699	7405	5129	1033	3286	6377	597	1944
+Unclustered genes	8913	1870	4150	1625	588	3599	9837	3889	2086	1906	2396	447	2248

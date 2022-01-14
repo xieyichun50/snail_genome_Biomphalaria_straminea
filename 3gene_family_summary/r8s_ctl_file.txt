@@ -1,0 +1,13 @@
+#NEXUS
+begin trees;
+tree nj_tree = [&R] (Octopus_sinensis:0.27637,((Cyclina_sinensis:0.40576,(Scapharca_Anadara_broughtonii:0.271438,(Pinctada_fucata_martensii:0.288481,(Magallana_hongkongensis:0.0170174,Crassostrea_gigas:0.015043)N10:0.253985)N7:0.0902561)N4:0.082136)N2:0.0631238,((Haliotis_rubra:0.25703,Chrysomallon_squamiferum:0.2966)N5:0.0737047,((Achatina_immaculata:0.250566,(Biomphalaria_glabrata:0.0225888,Biomphalaria_straminea:0.0136696)N11:0.200939)N8:0.254319,(Marisa_cornuarietis:0.0326281,Pomacea_canaliculata:0.0282789)N9:0.325124)N6:0.0959603)N3:0.0730601)N1:0.27637)N0;
+End;
+begin rates;
+blformat nsites=1380750 lengths=persite ultrametric=no;
+collapse;
+mrca sisata Octopus_sinensis Pomacea_canaliculata;
+fixage taxon=sisata age=594;
+divtime method=pl algorithm=tn cvStart=0 cvInc=0.5 cvNum=8 crossv=yes;
+describe plot=chronogram;
+describe plot=tree_description;
+end;

@@ -1,0 +1,323 @@
+Reading tree nj_tree
+Executing blformat command...
+Number of sites in sequences set to 1380750
+Branch lengths assumed to be in units of numbers of substitutions per site
+All branch lengths multipled by the 1380750 sites in the sequence
+Branch lengths rounded to nearest integer
+(This may not be a good idea when using CALIBRATE on ultrametric user supplied input trees. Use ROUND=NO then)
+0 zero-length branches collapsed
+********************* WARNING **********************
+
+MRCA is overwriting an existing node name
+
+****************************************************
+[** The overwritten node is N0 **]
+Defining clade name: sisata
+Fixing age of sisata at 594.000000
+ (The age of this node will no longer be estimated.)
+ (This command overides any previous age constraints for this node.)
+ (The total number of fixed ages is now 1)
+Begin cross-validation analyses...
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 1.000000:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	457610399434.68	432496.59	Good
+Cyclina_	590149796.78	 1101.11	Good
+Scapharc	8108101245.00	17443.04	Good
+Pinctada	5621102036.57	17384.17	Good
+Magallan	16369018.31	  841.55	Good
+Crassost	1283314.60	   58.59	Good
+Haliotis	9709349641.71	21413.12	Good
+Chrysoma	332665439.58	  777.68	Good
+Achatina	14452720691.74	64021.04	Good
+Biomphal	205711056.88	12211.00	Good
+Biomphal	68758635.07	 2531.05	Good
+Marisa_c	33255613.17	  846.54	Good
+Pomacea_	34736275.71	  772.95	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 3.162278:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	467934286120.80	439104.76	Good
+Cyclina_	518474604.16	  964.63	Good
+Scapharc	7464193861.47	16184.87	Good
+Pinctada	6012074121.39	18741.91	Good
+Magallan	18303813.22	  952.40	Good
+Crassost	746442.42	   34.50	Good
+Haliotis	9462408960.35	20926.71	Good
+Chrysoma	394819998.67	  919.47	Good
+Achatina	16672558093.67	76886.37	Good
+Biomphal	223040917.33	13721.84	Good
+Biomphal	53363492.78	 2038.41	Good
+Marisa_c	45105913.24	 1176.63	Good
+Pomacea_	22790244.07	  520.09	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 10.000000:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	472860285725.12	442236.98	Good
+Cyclina_	400381491.15	  741.11	Good
+Scapharc	7420281149.31	16098.53	Good
+Pinctada	6030991078.38	18808.02	Good
+Magallan	18854397.31	  984.32	Good
+Crassost	622495.62	   28.87	Good
+Haliotis	9487497498.95	20976.22	Good
+Chrysoma	448932906.13	 1042.29	Good
+Achatina	17661215652.06	82887.91	Good
+Biomphal	231240245.70	14468.42	Good
+Biomphal	46946750.72	 1824.89	Good
+Marisa_c	51053342.00	 1346.85	Good
+Pomacea_	18224403.11	  420.74	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 31.622777:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	474664972410.06	443381.18	Good
+Cyclina_	349721151.21	  645.78	Good
+Scapharc	7444962925.44	16147.07	Good
+Pinctada	6007717790.82	18726.69	Good
+Magallan	18982856.32	  991.79	Good
+Crassost	594837.32	   27.61	Good
+Haliotis	9516901289.71	21034.22	Good
+Chrysoma	473162048.36	 1097.11	Good
+Achatina	18016799513.34	85088.32	Good
+Biomphal	234281528.16	14750.70	Good
+Biomphal	44697997.78	 1748.77	Good
+Marisa_c	53296108.92	 1411.80	Good
+Pomacea_	16698773.26	  387.15	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 100.000000:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	475264311805.20	443760.77	Good
+Cyclina_	332443201.02	  613.34	Good
+Scapharc	7457931482.82	16172.56	Good
+Pinctada	5996312450.36	18686.85	Good
+Magallan	19016184.59	  993.73	Good
+Crassost	587659.15	   27.29	Good
+Haliotis	9528776430.46	21057.63	Good
+Chrysoma	481714203.40	 1116.43	Good
+Achatina	18134326403.63	85820.52	Good
+Biomphal	235298413.20	14845.74	Good
+Biomphal	43961475.02	 1723.69	Good
+Marisa_c	54050202.05	 1433.73	Good
+Pomacea_	16207844.46	  376.30	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 316.227766:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	475456847130.33	443882.68	Good
+Cyclina_	326862794.76	  602.87	Good
+Scapharc	7462599963.11	16181.73	Good
+Pinctada	5992256445.26	18672.68	Good
+Magallan	19025880.63	  994.29	Good
+Crassost	585563.36	   27.19	Good
+Haliotis	9532801879.06	21065.57	Good
+Chrysoma	484514263.17	 1122.75	Good
+Achatina	18172030021.79	86055.94	Good
+Biomphal	235625885.81	14876.41	Good
+Biomphal	43725937.23	 1715.65	Good
+Marisa_c	54293518.51	 1440.81	Good
+Pomacea_	16051738.31	  372.84	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 1000.000000:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	475518055644.38	443921.43	Good
+Cyclina_	325084827.39	  599.54	Good
+Scapharc	7464137585.42	16184.75	Good
+Pinctada	5990925338.93	18668.03	Good
+Magallan	19028853.82	  994.46	Good
+Crassost	584913.05	   27.16	Good
+Haliotis	9534109792.27	21068.14	Good
+Chrysoma	485409967.89	 1124.77	Good
+Achatina	18184010261.97	86130.79	Good
+Biomphal	235730229.65	14886.20	Good
+Biomphal	43651179.31	 1713.09	Good
+Marisa_c	54370959.86	 1443.07	Good
+Pomacea_	16002297.23	  371.75	Good
++
++
++
++
++
++
++
++
++
++
++
++
++
+
+.....................................................................
+
+CV Results for smoothing = 3162.277660:
+Pruned taxon	Sq		ChiSq		Result
+Octopus_	475537416729.21	443933.68	Good
+Cyclina_	324522427.11	  598.49	Good
+Scapharc	7464628908.68	16185.72	Good
+Pinctada	5990506400.79	18666.57	Good
+Magallan	19029780.53	  994.52	Good
+Crassost	584712.15	   27.15	Good
+Haliotis	9534521887.83	21068.96	Good
+Chrysoma	485693210.31	 1125.41	Good
+Achatina	18187799570.20	86154.47	Good
+Biomphal	235763102.40	14889.28	Good
+Biomphal	43627522.63	 1712.29	Good
+Marisa_c	54395563.58	 1443.79	Good
+Pomacea_	15986643.38	  371.40	Good
+********************************************************************************
+
+Results of cross validation analysis for tree nj_tree
+Method = Penalized Likelihood
+
+log10
+smooth	smooth		Sq Error	Chi Square Error
+--------------------------------------------------------------------------------
+  0.00	     1		496784602199.80	571898.42	(Good)
+  0.50	   3.2		508822166583.57	592172.58	(Good)
+  1.00	    10		514676527135.56	601865.15	(Good)
+  1.50	    32		516842789230.72	605438.16	(Good)
+  2.00	 1e+02		517564937755.35	606628.56	(Good)
+  2.50	3.2e+02		517797221021.32	607011.42	(Good)
+  3.00	 1e+03		517871101851.17	607133.20	(Good)
+  3.50	3.2e+03		517894476458.80	607171.72	(Good)
+********************************************************************************
+
+Optimum:   0.00	     1		496784602199.80	571898.42
+********************************************************************************
+
+[Printing tree 1]
+
+[CHRONOGRAM of tree nj_tree]
+                        +-Magallana_hongkongensis
+               +--------+N10
+            +--+N7      +-Crassostrea_gigas
+            |  |
+         +--+N4+----------Pinctada_fucata_martensii
+         |  |
+       +-+N2+-------------Scapharca_Anadara_broughtonii
+       | |
+       | +----------------Cyclina_sinensis
+       |
++------+N1  +-------------Haliotis_rubra
+|      | +--+N5
+|      | |  +-------------Chrysomallon_squamiferum
+|      | |
+|      +-+N3            +-Biomphalaria_glabrata
+|        |       +------+N11
+|        | +-----+N8    +-Biomphalaria_straminea
++sisata  | |     |
+|        +-+N6   +--------Achatina_immaculata
+|          |
+|          |           +--Marisa_cornuarietis
+|          +-----------+N9
+|                      +--Pomacea_canaliculata
+|
++-------------------------Octopus_sinensis
+
+[Printing tree 1]
+
+[TREE DESCRIPTION of tree nj_tree]
+
+tree nj_tree = ((((((Magallana_hongkongensis:14.498733,Crassostrea_gigas:14.498733)N10:220.232837,Pinctada_fucata_martensii:234.731570)N7:68.158526,Scapharca_Anadara_broughtonii:302.890096)N4:70.663732,Cyclina_sinensis:373.553828)N2:53.020827,((Haliotis_rubra:291.104222,Chrysomallon_squamiferum:291.104222)N5:87.347321,(((Biomphalaria_glabrata:15.480298,Biomphalaria_straminea:15.480298)N11:156.481385,Achatina_immaculata:171.961683)N8:151.099304,(Marisa_cornuarietis:29.464009,Pomacea_canaliculata:29.464009)N9:293.596978)N6:55.390556)N3:48.123112)N1:167.425345,Octopus_sinensis:594.000000)sisata;
