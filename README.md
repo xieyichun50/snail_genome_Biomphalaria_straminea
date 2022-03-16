@@ -3,4 +3,4 @@
 Data analysis and supplementary materials of genome comparisons on <i>Biomphalaria_straminea</i> and other 12 molluscs.
 
 ## Publication
-^Nong WY, ^Yu Y, ^Aase-Remedios M, ^Xie Y, ^So WL, ^Li Y, ^Wong CF, ^Baril T, ^Law ST, Lai SY, Haimovitz J, Swale T, Chen SS, Kai ZP, Sun X, Wu Z, Hayward A*, Ferrier DE*, Hui JHL*. Genome of the ramshorn snail Biomphalaria staminea - an obligate intermediate host of schistosomiasis. GigaScience. (accepted).
+Nong, W., Yu, Y., Aase-Remedios, M.E., Xie, Y., So, W.L., Li, Y., Wong, C.F., Baril, T., Law, S.T.S., Lai, S.Y., Haimovitz, J., Swale, T., Chen, S., Kai, Z., Sun, X., Wu, Z., Hayward, A., Ferrier, D.E.K., Hui, J.H.L., 2022. Genome of the ramshorn snail <i>Biomphalaria straminea</i>—an obligate intermediate host of schistosomiasis. Gigascience 11, 1. https://doi.org/10.1093/GIGASCIENCE/GIAC012
