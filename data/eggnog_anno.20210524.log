@@ -1,0 +1,2035 @@
+nohup: ignoring input
+Achatina_fulica
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Achatina_fulica.fa -o Achatina_fulica.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Achatina_fulica.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_Mek4mK/cbb04a8171fc437cb551c3679cb59fcf --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 83.2333869934 6.01 q/s (func. annotation)
+1000 120.314656019 8.31 q/s (func. annotation)
+1500 155.289741993 9.66 q/s (func. annotation)
+2000 176.532840014 11.33 q/s (func. annotation)
+2500 197.97060895 12.63 q/s (func. annotation)
+3000 246.676807165 12.16 q/s (func. annotation)
+3500 256.95468998 13.62 q/s (func. annotation)
+4000 265.578758001 15.06 q/s (func. annotation)
+4500 285.240160942 15.78 q/s (func. annotation)
+5000 289.277112961 17.28 q/s (func. annotation)
+5500 295.871577024 18.59 q/s (func. annotation)
+6000 298.792206049 20.08 q/s (func. annotation)
+6500 311.078267097 20.90 q/s (func. annotation)
+7000 330.772897005 21.16 q/s (func. annotation)
+7500 335.804857969 22.33 q/s (func. annotation)
+8000 340.180415154 23.52 q/s (func. annotation)
+8500 346.214653015 24.55 q/s (func. annotation)
+9000 352.299030066 25.55 q/s (func. annotation)
+9500 358.222707987 26.52 q/s (func. annotation)
+10000 364.460721016 27.44 q/s (func. annotation)
+10500 370.102971077 28.37 q/s (func. annotation)
+11000 374.85763216 29.34 q/s (func. annotation)
+11500 377.516826153 30.46 q/s (func. annotation)
+12000 380.58231616 31.53 q/s (func. annotation)
+12500 385.096321106 32.46 q/s (func. annotation)
+13000 439.861209154 29.55 q/s (func. annotation)
+13500 441.969784021 30.55 q/s (func. annotation)
+14000 444.548433065 31.49 q/s (func. annotation)
+14500 446.04392314 32.51 q/s (func. annotation)
+15000 447.369850159 33.53 q/s (func. annotation)
+15500 448.810125113 34.54 q/s (func. annotation)
+16000 462.432862043 34.60 q/s (func. annotation)
+16500 462.723469019 35.66 q/s (func. annotation)
+[1;34m Processed queries:16568 total_time:463.128283024 rate:35.77 q/s[0m
+[32mDone[0m
+   Achatina_fulica.eggnog.emapper.seed_orthologs
+   Achatina_fulica.eggnog.emapper.annotations
+Total time: 2270.35 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Achatina_immaculata
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Achatina_immaculata.fa -o Achatina_immaculata.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Achatina_immaculata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_uYxPP1/1d2091d7986f4bebb5a5c909fa6d9e1f --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 3.40911102295 146.67 q/s (func. annotation)
+1000 4.78793907166 208.86 q/s (func. annotation)
+1500 6.48173713684 231.42 q/s (func. annotation)
+2000 9.17639803886 217.95 q/s (func. annotation)
+2500 10.4428310394 239.40 q/s (func. annotation)
+3000 12.0709469318 248.53 q/s (func. annotation)
+3500 13.0478930473 268.24 q/s (func. annotation)
+4000 13.9262139797 287.23 q/s (func. annotation)
+4500 14.8703689575 302.62 q/s (func. annotation)
+5000 15.6895000935 318.68 q/s (func. annotation)
+5500 16.5641040802 332.04 q/s (func. annotation)
+6000 20.728274107 289.46 q/s (func. annotation)
+6500 21.1166749001 307.81 q/s (func. annotation)
+7000 21.459939003 326.19 q/s (func. annotation)
+7500 21.7085590363 345.49 q/s (func. annotation)
+8000 22.0874381065 362.20 q/s (func. annotation)
+8500 22.3310370445 380.64 q/s (func. annotation)
+9000 22.5892739296 398.42 q/s (func. annotation)
+9500 22.7849359512 416.94 q/s (func. annotation)
+10000 23.0108981133 434.58 q/s (func. annotation)
+10500 23.1875441074 452.83 q/s (func. annotation)
+11000 23.4073729515 469.94 q/s (func. annotation)
+11500 23.6240479946 486.79 q/s (func. annotation)
+12000 23.857614994 502.98 q/s (func. annotation)
+12500 24.0898809433 518.89 q/s (func. annotation)
+13000 24.311424017 534.73 q/s (func. annotation)
+13500 24.4657039642 551.79 q/s (func. annotation)
+14000 24.6060750484 568.97 q/s (func. annotation)
+14500 24.8010060787 584.65 q/s (func. annotation)
+[1;34m Processed queries:14961 total_time:25.0613229275 rate:596.98 q/s[0m
+[32mDone[0m
+   Achatina_immaculata.eggnog.emapper.seed_orthologs
+   Achatina_immaculata.eggnog.emapper.annotations
+Total time: 1905.35 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Architeuthis_dux
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Architeuthis_dux.fa -o Architeuthis_dux.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Architeuthis_dux.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_3xtKHx/003942a6d45f4901958b743125d135fb --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 11.5091929436 43.44 q/s (func. annotation)
+1000 15.015556097 66.60 q/s (func. annotation)
+1500 17.3740751743 86.34 q/s (func. annotation)
+2000 19.2429170609 103.93 q/s (func. annotation)
+2500 21.457223177 116.51 q/s (func. annotation)
+3000 22.3764021397 134.07 q/s (func. annotation)
+3500 24.6618890762 141.92 q/s (func. annotation)
+4000 27.8037960529 143.87 q/s (func. annotation)
+4500 30.4978539944 147.55 q/s (func. annotation)
+5000 33.1775939465 150.70 q/s (func. annotation)
+5500 35.1460490227 156.49 q/s (func. annotation)
+6000 37.5057590008 159.98 q/s (func. annotation)
+6500 39.3431601524 165.21 q/s (func. annotation)
+7000 42.0618121624 166.42 q/s (func. annotation)
+7500 43.4168381691 172.74 q/s (func. annotation)
+8000 46.2435641289 173.00 q/s (func. annotation)
+8500 48.2775230408 176.07 q/s (func. annotation)
+9000 50.90675807 176.79 q/s (func. annotation)
+9500 52.9520680904 179.41 q/s (func. annotation)
+10000 56.4316551685 177.21 q/s (func. annotation)
+10500 58.403493166 179.78 q/s (func. annotation)
+11000 59.6965241432 184.27 q/s (func. annotation)
+11500 61.5170400143 186.94 q/s (func. annotation)
+12000 61.8865361214 193.90 q/s (func. annotation)
+12500 62.1800570488 201.03 q/s (func. annotation)
+13000 62.4756081104 208.08 q/s (func. annotation)
+13500 62.9108870029 214.59 q/s (func. annotation)
+14000 63.1515860558 221.69 q/s (func. annotation)
+14500 63.4155540466 228.65 q/s (func. annotation)
+15000 63.591422081 235.88 q/s (func. annotation)
+15500 63.8654551506 242.70 q/s (func. annotation)
+16000 64.1540980339 249.40 q/s (func. annotation)
+16500 64.3417241573 256.44 q/s (func. annotation)
+17000 64.5564851761 263.34 q/s (func. annotation)
+17500 64.7959721088 270.08 q/s (func. annotation)
+18000 64.9539470673 277.12 q/s (func. annotation)
+18500 65.1111531258 284.13 q/s (func. annotation)
+19000 65.3859601021 290.58 q/s (func. annotation)
+19500 65.6470980644 297.04 q/s (func. annotation)
+20000 65.8272199631 303.83 q/s (func. annotation)
+20500 66.0308339596 310.46 q/s (func. annotation)
+21000 66.1457209587 317.48 q/s (func. annotation)
+21500 66.2687940598 324.44 q/s (func. annotation)
+22000 66.4635310173 331.01 q/s (func. annotation)
+22500 66.6279489994 337.70 q/s (func. annotation)
+[1;34m Processed queries:22585 total_time:66.6760499477 rate:338.73 q/s[0m
+[32mDone[0m
+   Architeuthis_dux.eggnog.emapper.seed_orthologs
+   Architeuthis_dux.eggnog.emapper.annotations
+Total time: 2222.79 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Bathymodiolus_platifrons
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Bathymodiolus_platifrons.fa -o Bathymodiolus_platifrons.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Bathymodiolus_platifrons.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_QTNSzU/e422560c69dc471d8f8389dc6be19586 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 2.19939398766 227.34 q/s (func. annotation)
+1000 3.28402709961 304.50 q/s (func. annotation)
+1500 3.97474503517 377.38 q/s (func. annotation)
+2000 5.76206111908 347.10 q/s (func. annotation)
+2500 6.99846696854 357.22 q/s (func. annotation)
+3000 7.70583510399 389.32 q/s (func. annotation)
+3500 9.54013514519 366.87 q/s (func. annotation)
+4000 10.2628891468 389.75 q/s (func. annotation)
+4500 11.5865371227 388.38 q/s (func. annotation)
+5000 12.3814611435 403.83 q/s (func. annotation)
+5500 24.1062700748 228.16 q/s (func. annotation)
+6000 24.9568669796 240.41 q/s (func. annotation)
+6500 26.2591850758 247.53 q/s (func. annotation)
+7000 27.6913571358 252.79 q/s (func. annotation)
+7500 29.2917411327 256.04 q/s (func. annotation)
+8000 30.862293005 259.22 q/s (func. annotation)
+8500 32.3216900826 262.98 q/s (func. annotation)
+9000 34.5661189556 260.37 q/s (func. annotation)
+9500 40.5812621117 234.10 q/s (func. annotation)
+10000 46.2495570183 216.22 q/s (func. annotation)
+10500 46.5565900803 225.53 q/s (func. annotation)
+11000 46.8757510185 234.66 q/s (func. annotation)
+11500 47.1340279579 243.99 q/s (func. annotation)
+12000 47.3581001759 253.39 q/s (func. annotation)
+12500 47.5899891853 262.66 q/s (func. annotation)
+13000 47.8997550011 271.40 q/s (func. annotation)
+13500 48.0779721737 280.79 q/s (func. annotation)
+14000 48.3606910706 289.49 q/s (func. annotation)
+14500 48.5695750713 298.54 q/s (func. annotation)
+15000 48.7614781857 307.62 q/s (func. annotation)
+15500 49.3199691772 314.27 q/s (func. annotation)
+16000 49.5115561485 323.16 q/s (func. annotation)
+16500 49.8223180771 331.18 q/s (func. annotation)
+17000 49.9781701565 340.15 q/s (func. annotation)
+17500 50.1530470848 348.93 q/s (func. annotation)
+18000 50.3043141365 357.82 q/s (func. annotation)
+18500 50.5465600491 366.00 q/s (func. annotation)
+19000 50.7956840992 374.05 q/s (func. annotation)
+19500 50.946491003 382.75 q/s (func. annotation)
+20000 51.1242079735 391.20 q/s (func. annotation)
+20500 51.2855579853 399.72 q/s (func. annotation)
+21000 51.4376301765 408.26 q/s (func. annotation)
+21500 51.5566511154 417.02 q/s (func. annotation)
+[1;34m Processed queries:21758 total_time:51.7466771603 rate:420.47 q/s[0m
+[32mDone[0m
+   Bathymodiolus_platifrons.eggnog.emapper.seed_orthologs
+   Bathymodiolus_platifrons.eggnog.emapper.annotations
+Total time: 1841.35 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Biomphalaria_glabrata
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Biomphalaria_glabrata.fa -o Biomphalaria_glabrata.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Biomphalaria_glabrata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_ynSftG/0af0025180034eb88bd5387d1b141918 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 19.5750181675 25.54 q/s (func. annotation)
+1000 20.5087730885 48.76 q/s (func. annotation)
+1500 20.9536120892 71.59 q/s (func. annotation)
+2000 21.3301870823 93.76 q/s (func. annotation)
+2500 22.3701350689 111.76 q/s (func. annotation)
+3000 22.8271000385 131.42 q/s (func. annotation)
+3500 23.1970341206 150.88 q/s (func. annotation)
+4000 23.7215781212 168.62 q/s (func. annotation)
+4500 24.2890620232 185.27 q/s (func. annotation)
+5000 24.4621679783 204.40 q/s (func. annotation)
+5500 26.437016964 208.04 q/s (func. annotation)
+6000 27.0984539986 221.41 q/s (func. annotation)
+6500 27.6324110031 235.23 q/s (func. annotation)
+7000 28.6826000214 244.05 q/s (func. annotation)
+7500 28.984511137 258.76 q/s (func. annotation)
+8000 29.6649889946 269.68 q/s (func. annotation)
+8500 30.4007000923 279.60 q/s (func. annotation)
+9000 35.0251309872 256.96 q/s (func. annotation)
+9500 43.4843270779 218.47 q/s (func. annotation)
+10000 43.8046109676 228.29 q/s (func. annotation)
+10500 44.2305321693 237.39 q/s (func. annotation)
+11000 44.4673919678 247.37 q/s (func. annotation)
+11500 44.7669150829 256.89 q/s (func. annotation)
+12000 45.0130259991 266.59 q/s (func. annotation)
+12500 45.3283159733 275.77 q/s (func. annotation)
+13000 45.695595026 284.49 q/s (func. annotation)
+13500 45.973099947 293.65 q/s (func. annotation)
+14000 46.290115118 302.44 q/s (func. annotation)
+14500 46.4999871254 311.83 q/s (func. annotation)
+15000 46.8198170662 320.38 q/s (func. annotation)
+15500 47.0746750832 329.26 q/s (func. annotation)
+16000 47.3002049923 338.26 q/s (func. annotation)
+16500 47.6223580837 346.48 q/s (func. annotation)
+17000 47.8646960258 355.17 q/s (func. annotation)
+17500 48.0733151436 364.03 q/s (func. annotation)
+18000 48.3169300556 372.54 q/s (func. annotation)
+18500 48.5190999508 381.29 q/s (func. annotation)
+[1;34m Processed queries:18627 total_time:48.6782450676 rate:382.66 q/s[0m
+[32mDone[0m
+   Biomphalaria_glabrata.eggnog.emapper.seed_orthologs
+   Biomphalaria_glabrata.eggnog.emapper.annotations
+Total time: 1907.04 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Biomphalaria_straminea
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Biomphalaria_straminea.fa -o Biomphalaria_straminea.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Biomphalaria_straminea.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_9O3P5u/d5551e717ae14759967d2315dd6a0f03 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 14.6101460457 34.22 q/s (func. annotation)
+1000 14.8338320255 67.41 q/s (func. annotation)
+1500 16.5635750294 90.56 q/s (func. annotation)
+2000 16.8130309582 118.96 q/s (func. annotation)
+2500 17.9576380253 139.22 q/s (func. annotation)
+3000 19.5329909325 153.59 q/s (func. annotation)
+3500 21.2367169857 164.81 q/s (func. annotation)
+4000 21.386772871 187.03 q/s (func. annotation)
+4500 22.5834259987 199.26 q/s (func. annotation)
+5000 24.0427858829 207.96 q/s (func. annotation)
+5500 24.9758398533 220.21 q/s (func. annotation)
+6000 26.5361008644 226.11 q/s (func. annotation)
+6500 27.2006418705 238.96 q/s (func. annotation)
+7000 30.9421699047 226.23 q/s (func. annotation)
+7500 31.2483029366 240.01 q/s (func. annotation)
+8000 35.4584300518 225.62 q/s (func. annotation)
+8500 35.7417218685 237.82 q/s (func. annotation)
+9000 37.342772007 241.01 q/s (func. annotation)
+9500 37.9970839024 250.02 q/s (func. annotation)
+10000 38.9104959965 257.00 q/s (func. annotation)
+10500 40.9923779964 256.15 q/s (func. annotation)
+11000 44.7440500259 245.84 q/s (func. annotation)
+11500 45.1679708958 254.61 q/s (func. annotation)
+12000 45.2929708958 264.94 q/s (func. annotation)
+12500 45.5736699104 274.28 q/s (func. annotation)
+13000 45.8871338367 283.30 q/s (func. annotation)
+13500 46.2600538731 291.83 q/s (func. annotation)
+14000 46.4787349701 301.21 q/s (func. annotation)
+14500 46.6525390148 310.81 q/s (func. annotation)
+15000 46.8038289547 320.49 q/s (func. annotation)
+15500 47.1328818798 328.86 q/s (func. annotation)
+16000 47.4192178249 337.42 q/s (func. annotation)
+16500 47.6246929169 346.46 q/s (func. annotation)
+17000 47.8603520393 355.20 q/s (func. annotation)
+17500 47.9925658703 364.64 q/s (func. annotation)
+18000 48.1718230247 373.66 q/s (func. annotation)
+18500 48.3819139004 382.37 q/s (func. annotation)
+19000 48.6065869331 390.89 q/s (func. annotation)
+19500 48.8072910309 399.53 q/s (func. annotation)
+20000 48.9793169498 408.34 q/s (func. annotation)
+20500 49.1524009705 417.07 q/s (func. annotation)
+21000 49.3606519699 425.44 q/s (func. annotation)
+21500 49.5781719685 433.66 q/s (func. annotation)
+22000 49.7494268417 442.22 q/s (func. annotation)
+22500 49.9448108673 450.50 q/s (func. annotation)
+23000 50.1792829037 458.36 q/s (func. annotation)
+23500 50.3819439411 466.44 q/s (func. annotation)
+24000 50.5755398273 474.54 q/s (func. annotation)
+24500 50.692497015 483.31 q/s (func. annotation)
+25000 50.9438889027 490.74 q/s (func. annotation)
+25500 51.1603188515 498.43 q/s (func. annotation)
+[1;34m Processed queries:25699 total_time:51.2825570107 rate:501.13 q/s[0m
+[32mDone[0m
+   Biomphalaria_straminea.eggnog.emapper.seed_orthologs
+   Biomphalaria_straminea.eggnog.emapper.annotations
+Total time: 2015.1 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Capitella_teleta
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Capitella_teleta.fa -o Capitella_teleta.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Capitella_teleta.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_6tHXwT/bf356a59a7de47a5a64dfa24b02e9d34 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 2.94590997696 169.73 q/s (func. annotation)
+1000 4.5286989212 220.81 q/s (func. annotation)
+1500 6.09903693199 245.94 q/s (func. annotation)
+2000 8.34159898758 239.76 q/s (func. annotation)
+2500 9.90821194649 252.32 q/s (func. annotation)
+3000 16.1695640087 185.53 q/s (func. annotation)
+3500 18.2609260082 191.67 q/s (func. annotation)
+4000 20.4608488083 195.50 q/s (func. annotation)
+4500 27.333386898 164.63 q/s (func. annotation)
+5000 28.1224858761 177.79 q/s (func. annotation)
+5500 30.3758718967 181.06 q/s (func. annotation)
+6000 33.1784288883 180.84 q/s (func. annotation)
+6500 35.7831690311 181.65 q/s (func. annotation)
+7000 36.8164329529 190.13 q/s (func. annotation)
+7500 37.5878279209 199.53 q/s (func. annotation)
+8000 40.3101809025 198.46 q/s (func. annotation)
+8500 42.961014986 197.85 q/s (func. annotation)
+9000 45.1242799759 199.45 q/s (func. annotation)
+9500 47.2587609291 201.02 q/s (func. annotation)
+10000 48.6710820198 205.46 q/s (func. annotation)
+10500 49.6886379719 211.32 q/s (func. annotation)
+11000 51.0765960217 215.36 q/s (func. annotation)
+11500 52.8711760044 217.51 q/s (func. annotation)
+12000 54.8540279865 218.76 q/s (func. annotation)
+12500 56.5793018341 220.93 q/s (func. annotation)
+13000 57.7733199596 225.02 q/s (func. annotation)
+13500 58.4997708797 230.77 q/s (func. annotation)
+14000 60.228197813 232.45 q/s (func. annotation)
+14500 60.4917089939 239.70 q/s (func. annotation)
+15000 60.8054230213 246.69 q/s (func. annotation)
+15500 61.0125899315 254.05 q/s (func. annotation)
+16000 61.3664929867 260.73 q/s (func. annotation)
+16500 61.6150019169 267.79 q/s (func. annotation)
+17000 61.8786289692 274.73 q/s (func. annotation)
+17500 62.093916893 281.83 q/s (func. annotation)
+18000 62.2588269711 289.12 q/s (func. annotation)
+18500 62.4813258648 296.09 q/s (func. annotation)
+19000 62.7366359234 302.85 q/s (func. annotation)
+19500 62.8864908218 310.08 q/s (func. annotation)
+20000 62.999756813 317.46 q/s (func. annotation)
+20500 63.1814718246 324.46 q/s (func. annotation)
+21000 63.3335838318 331.58 q/s (func. annotation)
+21500 63.5156979561 338.50 q/s (func. annotation)
+[1;34m Processed queries:21872 total_time:63.7518348694 rate:343.08 q/s[0m
+[32mDone[0m
+   Capitella_teleta.eggnog.emapper.seed_orthologs
+   Capitella_teleta.eggnog.emapper.annotations
+Total time: 2023.48 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Chrysomallon_squamiferum
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Chrysomallon_squamiferum.fa -o Chrysomallon_squamiferum.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Chrysomallon_squamiferum.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_FA_Y6M/b915d4b3a3b8408d855559b768e6dcc7 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 1.20678186417 414.33 q/s (func. annotation)
+1000 1.76465082169 566.68 q/s (func. annotation)
+1500 2.42194700241 619.34 q/s (func. annotation)
+2000 2.84245181084 703.62 q/s (func. annotation)
+2500 3.52826404572 708.56 q/s (func. annotation)
+3000 3.94258999825 760.92 q/s (func. annotation)
+3500 4.52909898758 772.78 q/s (func. annotation)
+4000 4.83458781242 827.37 q/s (func. annotation)
+4500 5.28756594658 851.05 q/s (func. annotation)
+5000 5.52917289734 904.29 q/s (func. annotation)
+5500 6.1136739254 899.62 q/s (func. annotation)
+6000 6.38453698158 939.77 q/s (func. annotation)
+6500 6.97744989395 931.57 q/s (func. annotation)
+7000 8.19869303703 853.79 q/s (func. annotation)
+7500 9.65604186058 776.72 q/s (func. annotation)
+8000 10.1391580105 789.02 q/s (func. annotation)
+8500 10.5670199394 804.39 q/s (func. annotation)
+9000 10.8091888428 832.62 q/s (func. annotation)
+9500 10.9967038631 863.90 q/s (func. annotation)
+10000 11.1372449398 897.89 q/s (func. annotation)
+10500 11.2859559059 930.36 q/s (func. annotation)
+11000 11.4577310085 960.05 q/s (func. annotation)
+11500 11.6054558754 990.91 q/s (func. annotation)
+12000 11.7531578541 1021.00 q/s (func. annotation)
+12500 11.934461832 1047.39 q/s (func. annotation)
+[1;34m Processed queries:12516 total_time:12.0606348515 rate:1037.76 q/s[0m
+[32mDone[0m
+   Chrysomallon_squamiferum.eggnog.emapper.seed_orthologs
+   Chrysomallon_squamiferum.eggnog.emapper.annotations
+Total time: 1565.94 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Crassostrea_gigas
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Crassostrea_gigas.fa -o Crassostrea_gigas.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Crassostrea_gigas.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_5U3lhG/9408530dfb6c4bd6bc882f7266040d23 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 2.09978485107 238.12 q/s (func. annotation)
+1000 2.75806999207 362.57 q/s (func. annotation)
+1500 3.31578588486 452.38 q/s (func. annotation)
+2000 3.75655889511 532.40 q/s (func. annotation)
+2500 4.2396478653 589.67 q/s (func. annotation)
+3000 4.5185239315 663.93 q/s (func. annotation)
+3500 5.25472187996 666.07 q/s (func. annotation)
+4000 7.54275488853 530.31 q/s (func. annotation)
+4500 12.3676600456 363.85 q/s (func. annotation)
+5000 12.8148889542 390.17 q/s (func. annotation)
+5500 13.2809660435 414.13 q/s (func. annotation)
+6000 13.6830220222 438.50 q/s (func. annotation)
+6500 14.1678240299 458.79 q/s (func. annotation)
+7000 14.9043049812 469.66 q/s (func. annotation)
+7500 15.3404228687 488.90 q/s (func. annotation)
+8000 16.117773056 496.35 q/s (func. annotation)
+8500 16.3509950638 519.85 q/s (func. annotation)
+9000 16.7251009941 538.11 q/s (func. annotation)
+9500 17.0245139599 558.02 q/s (func. annotation)
+10000 17.5602519512 569.47 q/s (func. annotation)
+10500 17.7382609844 591.94 q/s (func. annotation)
+11000 18.3965809345 597.94 q/s (func. annotation)
+11500 18.8211989403 611.01 q/s (func. annotation)
+12000 19.1095440388 627.96 q/s (func. annotation)
+12500 19.3308339119 646.64 q/s (func. annotation)
+13000 19.5894708633 663.62 q/s (func. annotation)
+13500 19.7899708748 682.16 q/s (func. annotation)
+14000 19.9321639538 702.38 q/s (func. annotation)
+14500 20.0896809101 721.76 q/s (func. annotation)
+15000 20.2353329659 741.28 q/s (func. annotation)
+15500 20.4386630058 758.37 q/s (func. annotation)
+16000 20.7253859043 772.00 q/s (func. annotation)
+16500 20.94460392 787.79 q/s (func. annotation)
+17000 21.1405239105 804.14 q/s (func. annotation)
+17500 21.3398439884 820.06 q/s (func. annotation)
+18000 21.6282439232 832.25 q/s (func. annotation)
+18500 21.8542768955 846.52 q/s (func. annotation)
+19000 21.9763689041 864.57 q/s (func. annotation)
+19500 22.231194973 877.15 q/s (func. annotation)
+20000 22.4237449169 891.91 q/s (func. annotation)
+[1;34m Processed queries:20439 total_time:22.6726419926 rate:901.48 q/s[0m
+[32mDone[0m
+   Crassostrea_gigas.eggnog.emapper.seed_orthologs
+   Crassostrea_gigas.eggnog.emapper.annotations
+Total time: 1964.69 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Crassostrea_virginica
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Crassostrea_virginica.fa -o Crassostrea_virginica.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Crassostrea_virginica.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_9FItPi/4f421128c6dd4bd9881505d96b81d17a --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 1.00379014015 498.11 q/s (func. annotation)
+1000 1.5941889286 627.28 q/s (func. annotation)
+1500 2.05907702446 728.48 q/s (func. annotation)
+2000 2.45164108276 815.78 q/s (func. annotation)
+2500 2.8496530056 877.30 q/s (func. annotation)
+3000 3.37915611267 887.80 q/s (func. annotation)
+3500 3.72741103172 938.99 q/s (func. annotation)
+4000 4.10164403915 975.22 q/s (func. annotation)
+4500 4.90451097488 917.52 q/s (func. annotation)
+5000 5.40227198601 925.54 q/s (func. annotation)
+5500 5.75376296043 955.90 q/s (func. annotation)
+6000 6.34606099129 945.47 q/s (func. annotation)
+6500 6.87684392929 945.20 q/s (func. annotation)
+7000 7.42618894577 942.61 q/s (func. annotation)
+7500 7.89684295654 949.75 q/s (func. annotation)
+8000 8.56170606613 934.39 q/s (func. annotation)
+8500 9.19378709793 924.54 q/s (func. annotation)
+9000 9.44867396355 952.51 q/s (func. annotation)
+9500 9.7829720974 971.08 q/s (func. annotation)
+10000 10.3868589401 962.75 q/s (func. annotation)
+10500 10.8570151329 967.12 q/s (func. annotation)
+11000 11.2734251022 975.75 q/s (func. annotation)
+11500 11.4681360722 1002.78 q/s (func. annotation)
+12000 12.1565721035 987.12 q/s (func. annotation)
+12500 12.299145937 1016.33 q/s (func. annotation)
+13000 12.4554700851 1043.72 q/s (func. annotation)
+13500 12.5991420746 1071.50 q/s (func. annotation)
+14000 12.7593920231 1097.23 q/s (func. annotation)
+14500 12.9108669758 1123.08 q/s (func. annotation)
+15000 13.0579481125 1148.73 q/s (func. annotation)
+15500 13.2344610691 1171.18 q/s (func. annotation)
+16000 13.3529810905 1198.23 q/s (func. annotation)
+16500 13.4707670212 1224.87 q/s (func. annotation)
+17000 13.6070289612 1249.35 q/s (func. annotation)
+17500 13.7854750156 1269.45 q/s (func. annotation)
+18000 13.9497280121 1290.35 q/s (func. annotation)
+18500 14.0667691231 1315.16 q/s (func. annotation)
+19000 14.1894171238 1339.03 q/s (func. annotation)
+19500 14.3377730846 1360.04 q/s (func. annotation)
+20000 14.4561500549 1383.49 q/s (func. annotation)
+20500 14.5704920292 1406.95 q/s (func. annotation)
+21000 14.6760449409 1430.90 q/s (func. annotation)
+21500 14.8213441372 1450.61 q/s (func. annotation)
+22000 14.9338669777 1473.16 q/s (func. annotation)
+22500 15.0964970589 1490.41 q/s (func. annotation)
+23000 15.2122089863 1511.94 q/s (func. annotation)
+23500 15.3403639793 1531.91 q/s (func. annotation)
+24000 15.4666190147 1551.73 q/s (func. annotation)
+[1;34m Processed queries:24044 total_time:15.550702095 rate:1546.17 q/s[0m
+[32mDone[0m
+   Crassostrea_virginica.eggnog.emapper.seed_orthologs
+   Crassostrea_virginica.eggnog.emapper.annotations
+Total time: 2142.79 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Cyclina_sinensis
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Cyclina_sinensis.fa -o Cyclina_sinensis.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Cyclina_sinensis.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_KmKzBF/2bfe645c739d4b8bb54b53ca50b90c86 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 3.36554288864 148.56 q/s (func. annotation)
+1000 3.67275094986 272.28 q/s (func. annotation)
+1500 4.02200007439 372.95 q/s (func. annotation)
+2000 4.38464307785 456.14 q/s (func. annotation)
+2500 5.2076818943 480.06 q/s (func. annotation)
+3000 6.15805196762 487.17 q/s (func. annotation)
+3500 6.37695097923 548.85 q/s (func. annotation)
+4000 7.01250195503 570.41 q/s (func. annotation)
+4500 7.29521107674 616.84 q/s (func. annotation)
+5000 9.43369293213 530.02 q/s (func. annotation)
+5500 9.86549687386 557.50 q/s (func. annotation)
+6000 10.5207898617 570.30 q/s (func. annotation)
+6500 11.6514868736 557.87 q/s (func. annotation)
+7000 12.1741170883 574.99 q/s (func. annotation)
+7500 12.5561850071 597.32 q/s (func. annotation)
+8000 12.8898909092 620.64 q/s (func. annotation)
+8500 15.1921348572 559.50 q/s (func. annotation)
+9000 15.546104908 578.92 q/s (func. annotation)
+9500 15.7485508919 603.23 q/s (func. annotation)
+10000 15.8830289841 629.60 q/s (func. annotation)
+10500 16.2280960083 647.03 q/s (func. annotation)
+11000 16.424175024 669.74 q/s (func. annotation)
+11500 16.6387939453 691.16 q/s (func. annotation)
+12000 16.8281190395 713.09 q/s (func. annotation)
+12500 16.9547069073 737.26 q/s (func. annotation)
+13000 17.1214270592 759.28 q/s (func. annotation)
+13500 17.2739238739 781.52 q/s (func. annotation)
+14000 17.4612939358 801.77 q/s (func. annotation)
+14500 17.6328399181 822.33 q/s (func. annotation)
+15000 17.789167881 843.21 q/s (func. annotation)
+15500 17.9146270752 865.21 q/s (func. annotation)
+16000 18.0429348946 886.77 q/s (func. annotation)
+16500 18.2061769962 906.29 q/s (func. annotation)
+17000 18.403414011 923.74 q/s (func. annotation)
+17500 18.5199580193 944.93 q/s (func. annotation)
+18000 18.7033829689 962.39 q/s (func. annotation)
+18500 18.8267290592 982.65 q/s (func. annotation)
+19000 19.0279240608 998.53 q/s (func. annotation)
+[1;34m Processed queries:19038 total_time:19.1777729988 rate:992.71 q/s[0m
+[32mDone[0m
+   Cyclina_sinensis.eggnog.emapper.seed_orthologs
+   Cyclina_sinensis.eggnog.emapper.annotations
+Total time: 1939.74 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Drosophila_melanogaster
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Drosophila_melanogaster.fa -o Drosophila_melanogaster.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Drosophila_melanogaster.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_O3F7pE/7d1fb718dba54a52a6e720a88f8a717f --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 2.43834114075 205.06 q/s (func. annotation)
+1000 4.28806018829 233.21 q/s (func. annotation)
+1500 5.97650909424 250.98 q/s (func. annotation)
+2000 7.01994919777 284.90 q/s (func. annotation)
+2500 8.27295613289 302.19 q/s (func. annotation)
+3000 9.29101920128 322.89 q/s (func. annotation)
+3500 10.4920229912 333.59 q/s (func. annotation)
+4000 11.5354540348 346.76 q/s (func. annotation)
+4500 12.6921050549 354.55 q/s (func. annotation)
+5000 14.2753221989 350.25 q/s (func. annotation)
+5500 15.1973521709 361.91 q/s (func. annotation)
+6000 15.6479151249 383.44 q/s (func. annotation)
+6500 16.6858091354 389.55 q/s (func. annotation)
+7000 17.5855541229 398.05 q/s (func. annotation)
+7500 20.4212870598 367.26 q/s (func. annotation)
+8000 20.5826320648 388.68 q/s (func. annotation)
+8500 20.7499141693 409.64 q/s (func. annotation)
+9000 22.0015699863 409.06 q/s (func. annotation)
+9500 22.7454161644 417.67 q/s (func. annotation)
+10000 23.4417061806 426.59 q/s (func. annotation)
+10500 25.0956790447 418.40 q/s (func. annotation)
+11000 25.3638679981 433.69 q/s (func. annotation)
+11500 26.3036761284 437.20 q/s (func. annotation)
+12000 26.8466501236 446.98 q/s (func. annotation)
+[1;34m Processed queries:12117 total_time:27.0109801292 rate:448.60 q/s[0m
+[32mDone[0m
+   Drosophila_melanogaster.eggnog.emapper.seed_orthologs
+   Drosophila_melanogaster.eggnog.emapper.annotations
+Total time: 1605.84 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Echinococcus_multilocularis
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Echinococcus_multilocularis.fa -o Echinococcus_multilocularis.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Echinococcus_multilocularis.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_P4OKjG/25d35e3cf6b544afbc5605593de27791 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 1.61151909828 310.27 q/s (func. annotation)
+1000 2.57453107834 388.42 q/s (func. annotation)
+1500 2.95583415031 507.47 q/s (func. annotation)
+2000 3.50750017166 570.21 q/s (func. annotation)
+2500 4.02489304543 621.13 q/s (func. annotation)
+3000 5.16020107269 581.37 q/s (func. annotation)
+3500 6.04705810547 578.79 q/s (func. annotation)
+4000 7.05586695671 566.90 q/s (func. annotation)
+4500 7.27285599709 618.74 q/s (func. annotation)
+5000 7.84594702721 637.27 q/s (func. annotation)
+5500 8.51705312729 645.76 q/s (func. annotation)
+6000 9.67103099823 620.41 q/s (func. annotation)
+[1;34m Processed queries:6478 total_time:9.80974817276 rate:660.36 q/s[0m
+[32mDone[0m
+   Echinococcus_multilocularis.eggnog.emapper.seed_orthologs
+   Echinococcus_multilocularis.eggnog.emapper.annotations
+Total time: 1422.27 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Haliotis_discus
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Haliotis_discus.fa -o Haliotis_discus.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Haliotis_discus.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_jLqakC/af481b127cc0454eafa46450ee06b41a --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 2.55932688713 195.36 q/s (func. annotation)
+1000 3.05494999886 327.34 q/s (func. annotation)
+1500 3.84212589264 390.41 q/s (func. annotation)
+2000 4.22345399857 473.55 q/s (func. annotation)
+2500 4.80646395683 520.13 q/s (func. annotation)
+3000 5.03435587883 595.91 q/s (func. annotation)
+3500 5.59328198433 625.75 q/s (func. annotation)
+4000 6.85298395157 583.69 q/s (func. annotation)
+4500 7.12161898613 631.88 q/s (func. annotation)
+5000 7.34605193138 680.64 q/s (func. annotation)
+5500 7.92721986771 693.81 q/s (func. annotation)
+6000 8.13002204895 738.01 q/s (func. annotation)
+6500 9.67908906937 671.55 q/s (func. annotation)
+7000 10.3258478642 677.91 q/s (func. annotation)
+7500 10.7807369232 695.69 q/s (func. annotation)
+8000 10.9171080589 732.79 q/s (func. annotation)
+8500 11.1750319004 760.62 q/s (func. annotation)
+9000 11.3277630806 794.51 q/s (func. annotation)
+9500 11.4967608452 826.32 q/s (func. annotation)
+10000 11.6946909428 855.09 q/s (func. annotation)
+10500 11.8548300266 885.71 q/s (func. annotation)
+11000 12.0736248493 911.08 q/s (func. annotation)
+11500 12.3072869778 934.41 q/s (func. annotation)
+12000 12.4689850807 962.39 q/s (func. annotation)
+12500 12.5819940567 993.48 q/s (func. annotation)
+13000 12.7599198818 1018.82 q/s (func. annotation)
+13500 12.8984370232 1046.64 q/s (func. annotation)
+14000 13.0425069332 1073.41 q/s (func. annotation)
+14500 13.3403289318 1086.93 q/s (func. annotation)
+15000 13.5834488869 1104.29 q/s (func. annotation)
+15500 13.7339289188 1128.59 q/s (func. annotation)
+[1;34m Processed queries:15550 total_time:13.8316478729 rate:1124.23 q/s[0m
+[32mDone[0m
+   Haliotis_discus.eggnog.emapper.seed_orthologs
+   Haliotis_discus.eggnog.emapper.annotations
+Total time: 1410.14 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Helobdella_robusta
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Helobdella_robusta.fa -o Helobdella_robusta.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Helobdella_robusta.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_8DSAIB/a0a3ac3173b847cd917c25feae46310e --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 1.21688818932 410.88 q/s (func. annotation)
+1000 1.77696013451 562.76 q/s (func. annotation)
+1500 2.01821804047 743.23 q/s (func. annotation)
+2000 2.60778212547 766.94 q/s (func. annotation)
+2500 3.08088207245 811.46 q/s (func. annotation)
+3000 3.86327719688 776.54 q/s (func. annotation)
+3500 4.21354818344 830.65 q/s (func. annotation)
+4000 4.68981599808 852.91 q/s (func. annotation)
+4500 5.54340219498 811.78 q/s (func. annotation)
+5000 5.90964317322 846.07 q/s (func. annotation)
+5500 6.54728722572 840.04 q/s (func. annotation)
+6000 6.89692616463 869.95 q/s (func. annotation)
+6500 7.40846514702 877.37 q/s (func. annotation)
+7000 7.63436818123 916.91 q/s (func. annotation)
+7500 8.31157016754 902.36 q/s (func. annotation)
+8000 9.0045671463 888.44 q/s (func. annotation)
+8500 9.30291700363 913.69 q/s (func. annotation)
+9000 9.6935441494 928.45 q/s (func. annotation)
+9500 10.1494300365 936.01 q/s (func. annotation)
+10000 10.4498100281 956.96 q/s (func. annotation)
+10500 11.1600971222 940.85 q/s (func. annotation)
+11000 11.633878231 945.51 q/s (func. annotation)
+11500 11.8172900677 973.15 q/s (func. annotation)
+12000 12.2565450668 979.07 q/s (func. annotation)
+12500 12.8751871586 970.86 q/s (func. annotation)
+13000 13.2666490078 979.90 q/s (func. annotation)
+13500 13.6160321236 991.48 q/s (func. annotation)
+14000 14.1192340851 991.56 q/s (func. annotation)
+14500 14.5672831535 995.38 q/s (func. annotation)
+15000 15.2608380318 982.91 q/s (func. annotation)
+15500 15.5295782089 998.10 q/s (func. annotation)
+16000 15.9779891968 1001.38 q/s (func. annotation)
+16500 16.4605212212 1002.40 q/s (func. annotation)
+[1;34m Processed queries:16623 total_time:16.57549119 rate:1002.87 q/s[0m
+[32mDone[0m
+   Helobdella_robusta.eggnog.emapper.seed_orthologs
+   Helobdella_robusta.eggnog.emapper.annotations
+Total time: 1832.93 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Lanistes_nyassanus
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Lanistes_nyassanus.fa -o Lanistes_nyassanus.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Lanistes_nyassanus.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_soaveO/3b2f87d0f7ec46b1acc44b55f4f1373d --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.892048120499 560.51 q/s (func. annotation)
+1000 1.50422501564 664.79 q/s (func. annotation)
+1500 2.35289907455 637.51 q/s (func. annotation)
+2000 2.67757606506 746.94 q/s (func. annotation)
+2500 3.03568315506 823.54 q/s (func. annotation)
+3000 3.5220580101 851.77 q/s (func. annotation)
+3500 4.00079393387 874.83 q/s (func. annotation)
+4000 4.40860509872 907.32 q/s (func. annotation)
+4500 4.83026194572 931.63 q/s (func. annotation)
+5000 5.24716901779 952.89 q/s (func. annotation)
+5500 5.75092697144 956.37 q/s (func. annotation)
+6000 6.03452110291 994.28 q/s (func. annotation)
+6500 6.34216094017 1024.89 q/s (func. annotation)
+7000 6.84253907204 1023.01 q/s (func. annotation)
+7500 7.12597513199 1052.49 q/s (func. annotation)
+8000 7.36134314537 1086.76 q/s (func. annotation)
+8500 7.55813503265 1124.62 q/s (func. annotation)
+9000 7.83262515068 1149.04 q/s (func. annotation)
+9500 7.98816609383 1189.26 q/s (func. annotation)
+10000 8.17785096169 1222.82 q/s (func. annotation)
+10500 8.29095697403 1266.44 q/s (func. annotation)
+11000 8.42723298073 1305.29 q/s (func. annotation)
+11500 8.60687804222 1336.14 q/s (func. annotation)
+12000 8.93460702896 1343.09 q/s (func. annotation)
+12500 9.0615530014 1379.45 q/s (func. annotation)
+13000 9.28675103188 1399.84 q/s (func. annotation)
+13500 9.49168801308 1422.30 q/s (func. annotation)
+14000 9.66145515442 1449.06 q/s (func. annotation)
+[1;34m Processed queries:14379 total_time:9.85005092621 rate:1459.79 q/s[0m
+[32mDone[0m
+   Lanistes_nyassanus.eggnog.emapper.seed_orthologs
+   Lanistes_nyassanus.eggnog.emapper.annotations
+Total time: 1808.31 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Lottia_gigantea
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Lottia_gigantea.fa -o Lottia_gigantea.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Lottia_gigantea.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_5MbAd9/b810b0b758a9420c95b81fd90ef7b452 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.740859031677 674.89 q/s (func. annotation)
+1000 1.22949194908 813.34 q/s (func. annotation)
+1500 1.49156785011 1005.65 q/s (func. annotation)
+2000 1.83795499802 1088.17 q/s (func. annotation)
+2500 2.36319589615 1057.89 q/s (func. annotation)
+3000 5.67652797699 528.49 q/s (func. annotation)
+3500 5.94012188911 589.21 q/s (func. annotation)
+4000 6.49292302132 616.06 q/s (func. annotation)
+4500 7.30028700829 616.41 q/s (func. annotation)
+5000 7.84943985939 636.99 q/s (func. annotation)
+5500 8.36045503616 657.86 q/s (func. annotation)
+6000 8.90299701691 673.93 q/s (func. annotation)
+6500 9.04638385773 718.52 q/s (func. annotation)
+7000 9.17053198814 763.31 q/s (func. annotation)
+7500 9.36422181129 800.92 q/s (func. annotation)
+8000 9.52190184593 840.17 q/s (func. annotation)
+8500 9.67153787613 878.87 q/s (func. annotation)
+9000 9.83789896965 914.83 q/s (func. annotation)
+9500 9.99778294563 950.21 q/s (func. annotation)
+10000 10.1340370178 986.77 q/s (func. annotation)
+10500 10.2520148754 1024.19 q/s (func. annotation)
+11000 10.3883569241 1058.88 q/s (func. annotation)
+11500 10.5220968723 1092.94 q/s (func. annotation)
+12000 10.6433780193 1127.46 q/s (func. annotation)
+12500 10.7594058514 1161.77 q/s (func. annotation)
+13000 10.9151279926 1191.01 q/s (func. annotation)
+13500 11.066603899 1219.89 q/s (func. annotation)
+14000 11.1736960411 1252.94 q/s (func. annotation)
+14500 11.2909479141 1284.21 q/s (func. annotation)
+15000 11.4186248779 1313.64 q/s (func. annotation)
+15500 11.5683560371 1339.86 q/s (func. annotation)
+16000 11.7230780125 1364.83 q/s (func. annotation)
+[1;34m Processed queries:16021 total_time:11.7467918396 rate:1363.86 q/s[0m
+[32mDone[0m
+   Lottia_gigantea.eggnog.emapper.seed_orthologs
+   Lottia_gigantea.eggnog.emapper.annotations
+Total time: 1766.38 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Magallana_hongkongensis
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Magallana_hongkongensis.fa -o Magallana_hongkongensis.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Magallana_hongkongensis.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_wfQN5J/50f07f5238064f1c887c3f982b205b41 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.703653812408 710.58 q/s (func. annotation)
+1000 1.01278090477 987.38 q/s (func. annotation)
+1500 1.40962600708 1064.11 q/s (func. annotation)
+2000 2.08709287643 958.27 q/s (func. annotation)
+2500 2.90131402016 861.68 q/s (func. annotation)
+3000 3.7781329155 794.04 q/s (func. annotation)
+3500 4.36051988602 802.66 q/s (func. annotation)
+4000 4.95516490936 807.24 q/s (func. annotation)
+4500 5.66028785706 795.01 q/s (func. annotation)
+5000 5.88521099091 849.59 q/s (func. annotation)
+5500 6.5302708149 842.23 q/s (func. annotation)
+6000 6.95953989029 862.13 q/s (func. annotation)
+6500 7.72970986366 840.91 q/s (func. annotation)
+7000 8.30257987976 843.11 q/s (func. annotation)
+7500 8.91870284081 840.93 q/s (func. annotation)
+8000 9.63845491409 830.01 q/s (func. annotation)
+8500 9.98433184624 851.33 q/s (func. annotation)
+9000 10.222014904 880.45 q/s (func. annotation)
+9500 10.4012339115 913.35 q/s (func. annotation)
+10000 10.5753779411 945.59 q/s (func. annotation)
+10500 10.679899931 983.16 q/s (func. annotation)
+11000 10.7891178131 1019.55 q/s (func. annotation)
+11500 10.956332922 1049.62 q/s (func. annotation)
+12000 11.1079878807 1080.30 q/s (func. annotation)
+12500 11.2630019188 1109.83 q/s (func. annotation)
+13000 11.4822649956 1132.18 q/s (func. annotation)
+13500 11.642980814 1159.50 q/s (func. annotation)
+14000 11.7708959579 1189.37 q/s (func. annotation)
+14500 11.8935530186 1219.15 q/s (func. annotation)
+15000 12.0517737865 1244.63 q/s (func. annotation)
+15500 12.1645488739 1274.19 q/s (func. annotation)
+16000 12.3716769218 1293.28 q/s (func. annotation)
+16500 12.5263078213 1317.23 q/s (func. annotation)
+17000 12.6759498119 1341.12 q/s (func. annotation)
+17500 12.8268408775 1364.33 q/s (func. annotation)
+18000 12.9642958641 1388.43 q/s (func. annotation)
+18500 13.1171419621 1410.37 q/s (func. annotation)
+19000 13.2470788956 1434.28 q/s (func. annotation)
+19500 13.4011688232 1455.10 q/s (func. annotation)
+20000 13.5299630165 1478.20 q/s (func. annotation)
+20500 13.6715958118 1499.46 q/s (func. annotation)
+21000 13.8675858974 1514.32 q/s (func. annotation)
+21500 14.0390148163 1531.45 q/s (func. annotation)
+22000 14.2515399456 1543.69 q/s (func. annotation)
+22500 14.3820037842 1564.46 q/s (func. annotation)
+23000 14.5142538548 1584.65 q/s (func. annotation)
+23500 14.7010838985 1598.52 q/s (func. annotation)
+24000 14.8068389893 1620.87 q/s (func. annotation)
+[1;34m Processed queries:24101 total_time:14.9721908569 rate:1609.72 q/s[0m
+[32mDone[0m
+   Magallana_hongkongensis.eggnog.emapper.seed_orthologs
+   Magallana_hongkongensis.eggnog.emapper.annotations
+Total time: 2035.26 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Marisa_cornuarietis
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Marisa_cornuarietis.fa -o Marisa_cornuarietis.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Marisa_cornuarietis.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_ux6jvf/04106d02a9d64cb6a59da68a0acf3fa8 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.777281045914 643.27 q/s (func. annotation)
+1000 1.37834715843 725.51 q/s (func. annotation)
+1500 1.96227693558 764.42 q/s (func. annotation)
+2000 2.77298307419 721.24 q/s (func. annotation)
+2500 3.46688914299 721.11 q/s (func. annotation)
+3000 4.28228807449 700.56 q/s (func. annotation)
+3500 4.92740607262 710.31 q/s (func. annotation)
+4000 6.05661916733 660.43 q/s (func. annotation)
+4500 6.80612802505 661.17 q/s (func. annotation)
+5000 6.97550797462 716.79 q/s (func. annotation)
+5500 7.08373999596 776.43 q/s (func. annotation)
+6000 7.25512313843 827.00 q/s (func. annotation)
+6500 7.36612701416 882.42 q/s (func. annotation)
+7000 7.48949313164 934.64 q/s (func. annotation)
+7500 7.65384316444 979.90 q/s (func. annotation)
+8000 7.76181411743 1030.69 q/s (func. annotation)
+8500 7.88895106316 1077.46 q/s (func. annotation)
+9000 8.02856111526 1121.00 q/s (func. annotation)
+9500 8.16332197189 1163.74 q/s (func. annotation)
+10000 8.28039193153 1207.67 q/s (func. annotation)
+10500 8.47258996964 1239.29 q/s (func. annotation)
+11000 8.60164904594 1278.82 q/s (func. annotation)
+11500 8.72003698349 1318.80 q/s (func. annotation)
+12000 8.84926104546 1356.05 q/s (func. annotation)
+12500 9.00918316841 1387.47 q/s (func. annotation)
+13000 9.1350209713 1423.09 q/s (func. annotation)
+13500 9.28849315643 1453.41 q/s (func. annotation)
+14000 9.44527411461 1482.22 q/s (func. annotation)
+14500 9.56789398193 1515.49 q/s (func. annotation)
+15000 9.73809504509 1540.34 q/s (func. annotation)
+[1;34m Processed queries:15284 total_time:9.86009907722 rate:1550.09 q/s[0m
+[32mDone[0m
+   Marisa_cornuarietis.eggnog.emapper.seed_orthologs
+   Marisa_cornuarietis.eggnog.emapper.annotations
+Total time: 1849.59 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Mizuhopecten_yessoensis
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Mizuhopecten_yessoensis.fa -o Mizuhopecten_yessoensis.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Mizuhopecten_yessoensis.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_jCTIiH/4f4e69b94710421e8fc30ef9e1776118 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 1.12830615044 443.14 q/s (func. annotation)
+1000 1.55783104897 641.92 q/s (func. annotation)
+1500 1.84736704826 811.97 q/s (func. annotation)
+2000 2.16246819496 924.87 q/s (func. annotation)
+2500 2.73053216934 915.57 q/s (func. annotation)
+3000 3.2009100914 937.23 q/s (func. annotation)
+3500 3.78701519966 924.21 q/s (func. annotation)
+4000 4.08114504814 980.12 q/s (func. annotation)
+4500 4.67811107635 961.93 q/s (func. annotation)
+5000 5.16025114059 968.95 q/s (func. annotation)
+5500 5.58115720749 985.46 q/s (func. annotation)
+6000 5.94897818565 1008.58 q/s (func. annotation)
+6500 6.48493313789 1002.32 q/s (func. annotation)
+7000 7.10862207413 984.72 q/s (func. annotation)
+7500 7.66513204575 978.46 q/s (func. annotation)
+8000 8.06551718712 991.88 q/s (func. annotation)
+8500 8.61821508408 986.28 q/s (func. annotation)
+9000 9.0223531723 997.52 q/s (func. annotation)
+9500 9.23366522789 1028.84 q/s (func. annotation)
+10000 9.40706920624 1063.03 q/s (func. annotation)
+10500 9.51559305191 1103.45 q/s (func. annotation)
+11000 9.65896821022 1138.84 q/s (func. annotation)
+11500 9.81186008453 1172.05 q/s (func. annotation)
+12000 9.97547721863 1202.95 q/s (func. annotation)
+12500 10.1230430603 1234.81 q/s (func. annotation)
+13000 10.2491140366 1268.40 q/s (func. annotation)
+13500 10.3927481174 1298.98 q/s (func. annotation)
+14000 10.504817009 1332.72 q/s (func. annotation)
+14500 10.6385061741 1362.97 q/s (func. annotation)
+15000 10.8031740189 1388.48 q/s (func. annotation)
+15500 10.9279022217 1418.39 q/s (func. annotation)
+16000 11.0364561081 1449.74 q/s (func. annotation)
+16500 11.1645720005 1477.89 q/s (func. annotation)
+17000 11.354129076 1497.25 q/s (func. annotation)
+17500 11.4775011539 1524.72 q/s (func. annotation)
+18000 11.6904790401 1539.71 q/s (func. annotation)
+[1;34m Processed queries:18218 total_time:11.8558151722 rate:1536.63 q/s[0m
+[32mDone[0m
+   Mizuhopecten_yessoensis.eggnog.emapper.seed_orthologs
+   Mizuhopecten_yessoensis.eggnog.emapper.annotations
+Total time: 2025.35 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Modiolus_philippinarum
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Modiolus_philippinarum.fa -o Modiolus_philippinarum.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Modiolus_philippinarum.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_sxg6qD/06444c90bd484355a592f863e0dbfa1f --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 1.06917905807 467.65 q/s (func. annotation)
+1000 1.5254650116 655.54 q/s (func. annotation)
+1500 2.18145704269 687.61 q/s (func. annotation)
+2000 2.79068899155 716.67 q/s (func. annotation)
+2500 3.57345294952 699.60 q/s (func. annotation)
+3000 4.09443902969 732.70 q/s (func. annotation)
+3500 4.61217808723 758.86 q/s (func. annotation)
+4000 5.08131408691 787.20 q/s (func. annotation)
+4500 5.57248806953 807.54 q/s (func. annotation)
+5000 6.01072001457 831.85 q/s (func. annotation)
+5500 6.34879493713 866.31 q/s (func. annotation)
+6000 6.75302004814 888.49 q/s (func. annotation)
+6500 7.2671289444 894.44 q/s (func. annotation)
+7000 7.85040903091 891.67 q/s (func. annotation)
+7500 8.2576520443 908.25 q/s (func. annotation)
+8000 8.65365004539 924.47 q/s (func. annotation)
+8500 9.2221031189 921.70 q/s (func. annotation)
+9000 9.71971702576 925.95 q/s (func. annotation)
+9500 10.2978579998 922.52 q/s (func. annotation)
+10000 10.5627090931 946.73 q/s (func. annotation)
+10500 10.8175570965 970.64 q/s (func. annotation)
+11000 11.0137779713 998.75 q/s (func. annotation)
+11500 11.2468440533 1022.51 q/s (func. annotation)
+12000 11.3907790184 1053.48 q/s (func. annotation)
+12500 11.5169460773 1085.36 q/s (func. annotation)
+13000 11.6654539108 1114.40 q/s (func. annotation)
+13500 11.8293590546 1141.23 q/s (func. annotation)
+14000 12.0832440853 1158.63 q/s (func. annotation)
+14500 12.3221259117 1176.74 q/s (func. annotation)
+15000 12.5637640953 1193.91 q/s (func. annotation)
+15500 12.67040205 1223.32 q/s (func. annotation)
+16000 12.8545811176 1244.69 q/s (func. annotation)
+16500 13.0479159355 1264.57 q/s (func. annotation)
+17000 13.2127530575 1286.64 q/s (func. annotation)
+17500 13.3187830448 1313.93 q/s (func. annotation)
+18000 13.4318220615 1340.10 q/s (func. annotation)
+18500 13.6213300228 1358.16 q/s (func. annotation)
+19000 13.7137789726 1385.47 q/s (func. annotation)
+19500 13.857765913 1407.15 q/s (func. annotation)
+20000 13.9460771084 1434.10 q/s (func. annotation)
+20500 14.1028311253 1453.61 q/s (func. annotation)
+21000 14.2108640671 1477.74 q/s (func. annotation)
+21500 14.3188569546 1501.52 q/s (func. annotation)
+22000 14.4539780617 1522.07 q/s (func. annotation)
+22500 14.5603621006 1545.29 q/s (func. annotation)
+23000 14.6804609299 1566.71 q/s (func. annotation)
+23500 14.7713561058 1590.92 q/s (func. annotation)
+24000 14.9084320068 1609.83 q/s (func. annotation)
+24500 15.0438449383 1628.57 q/s (func. annotation)
+[1;34m Processed queries:24839 total_time:15.1733829975 rate:1637.01 q/s[0m
+[32mDone[0m
+   Modiolus_philippinarum.eggnog.emapper.seed_orthologs
+   Modiolus_philippinarum.eggnog.emapper.annotations
+Total time: 1848.7 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Octopus_bimaculoides
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Octopus_bimaculoides.fa -o Octopus_bimaculoides.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Octopus_bimaculoides.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_Eq7v6N/bf4c83d0b5c1459ab8fd8791c9a92fc2 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.896219015121 557.90 q/s (func. annotation)
+1000 1.08998203278 917.45 q/s (func. annotation)
+1500 1.41266798973 1061.82 q/s (func. annotation)
+2000 1.84135508537 1086.16 q/s (func. annotation)
+2500 2.30362892151 1085.24 q/s (func. annotation)
+3000 2.62943291664 1140.93 q/s (func. annotation)
+3500 2.93717694283 1191.62 q/s (func. annotation)
+4000 3.27288508415 1222.16 q/s (func. annotation)
+4500 3.52947807312 1274.98 q/s (func. annotation)
+5000 3.88008904457 1288.63 q/s (func. annotation)
+5500 4.29350709915 1281.00 q/s (func. annotation)
+6000 4.79934597015 1250.17 q/s (func. annotation)
+6500 5.21168589592 1247.20 q/s (func. annotation)
+7000 5.49653792381 1273.53 q/s (func. annotation)
+7500 5.78437995911 1296.60 q/s (func. annotation)
+8000 6.20295405388 1289.71 q/s (func. annotation)
+8500 6.56199502945 1295.34 q/s (func. annotation)
+9000 6.89732909203 1304.85 q/s (func. annotation)
+9500 7.28080892563 1304.80 q/s (func. annotation)
+10000 7.44474601746 1343.23 q/s (func. annotation)
+10500 7.74805092812 1355.18 q/s (func. annotation)
+11000 7.93566393852 1386.15 q/s (func. annotation)
+11500 8.09412908554 1420.78 q/s (func. annotation)
+12000 8.22858095169 1458.33 q/s (func. annotation)
+[1;34m Processed queries:12484 total_time:8.43044495583 rate:1480.82 q/s[0m
+[32mDone[0m
+   Octopus_bimaculoides.eggnog.emapper.seed_orthologs
+   Octopus_bimaculoides.eggnog.emapper.annotations
+Total time: 2066.99 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Octopus_sinensis
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Octopus_sinensis.fa -o Octopus_sinensis.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Octopus_sinensis.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_Y9Uopb/6f4fec2a6c5f444b922eb3f544f7686b --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.799914121628 625.07 q/s (func. annotation)
+1000 1.4690310955 680.72 q/s (func. annotation)
+1500 2.13113212585 703.85 q/s (func. annotation)
+2000 3.01002216339 664.45 q/s (func. annotation)
+2500 3.41680216789 731.68 q/s (func. annotation)
+3000 3.81671404839 786.02 q/s (func. annotation)
+3500 4.02145600319 870.33 q/s (func. annotation)
+4000 4.23345804214 944.85 q/s (func. annotation)
+4500 4.44983696938 1011.27 q/s (func. annotation)
+5000 4.63833403587 1077.97 q/s (func. annotation)
+5500 4.80086994171 1145.63 q/s (func. annotation)
+6000 5.00640106201 1198.47 q/s (func. annotation)
+6500 5.38596200943 1206.84 q/s (func. annotation)
+7000 5.55704712868 1259.66 q/s (func. annotation)
+7500 5.91091704369 1268.84 q/s (func. annotation)
+8000 6.32544994354 1264.73 q/s (func. annotation)
+8500 6.50214600563 1307.26 q/s (func. annotation)
+9000 7.92548298836 1135.58 q/s (func. annotation)
+9500 8.41354203224 1129.13 q/s (func. annotation)
+10000 8.64476513863 1156.77 q/s (func. annotation)
+10500 8.75592899323 1199.19 q/s (func. annotation)
+11000 8.92932009697 1231.90 q/s (func. annotation)
+11500 9.16072106361 1255.36 q/s (func. annotation)
+12000 9.38223910332 1279.01 q/s (func. annotation)
+12500 9.48750901222 1317.52 q/s (func. annotation)
+13000 9.58980512619 1355.61 q/s (func. annotation)
+13500 9.69802093506 1392.04 q/s (func. annotation)
+14000 9.82788014412 1424.52 q/s (func. annotation)
+[1;34m Processed queries:14479 total_time:9.99445915222 rate:1448.70 q/s[0m
+[32mDone[0m
+   Octopus_sinensis.eggnog.emapper.seed_orthologs
+   Octopus_sinensis.eggnog.emapper.annotations
+Total time: 2146.79 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Pinctada_fucata
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Pinctada_fucata.fa -o Pinctada_fucata.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Pinctada_fucata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_tzTTkR/b68505be126547c3a8e071f3d27beb96 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.705146074295 709.07 q/s (func. annotation)
+1000 0.936811208725 1067.45 q/s (func. annotation)
+1500 1.63038420677 920.03 q/s (func. annotation)
+2000 2.47217607498 809.00 q/s (func. annotation)
+2500 2.81702303886 887.46 q/s (func. annotation)
+3000 3.29309916496 911.00 q/s (func. annotation)
+3500 3.86216020584 906.23 q/s (func. annotation)
+4000 4.15181517601 963.43 q/s (func. annotation)
+4500 4.73859500885 949.65 q/s (func. annotation)
+5000 5.13324904442 974.04 q/s (func. annotation)
+5500 5.3530921936 1027.44 q/s (func. annotation)
+6000 5.78811907768 1036.61 q/s (func. annotation)
+6500 6.45383119583 1007.15 q/s (func. annotation)
+7000 6.89514017105 1015.21 q/s (func. annotation)
+7500 7.305809021 1026.58 q/s (func. annotation)
+8000 7.63602113724 1047.67 q/s (func. annotation)
+8500 8.03299021721 1058.14 q/s (func. annotation)
+9000 8.80573320389 1022.06 q/s (func. annotation)
+9500 9.28227114677 1023.46 q/s (func. annotation)
+10000 9.49007511139 1053.73 q/s (func. annotation)
+10500 9.92601108551 1057.83 q/s (func. annotation)
+11000 10.2374281883 1074.49 q/s (func. annotation)
+11500 10.4168660641 1103.98 q/s (func. annotation)
+12000 10.553109169 1137.11 q/s (func. annotation)
+12500 10.7450051308 1163.33 q/s (func. annotation)
+13000 11.0365240574 1177.91 q/s (func. annotation)
+13500 11.259937048 1198.94 q/s (func. annotation)
+14000 11.3936371803 1228.76 q/s (func. annotation)
+14500 11.5471150875 1255.72 q/s (func. annotation)
+15000 11.6892161369 1283.23 q/s (func. annotation)
+15500 11.8115780354 1312.27 q/s (func. annotation)
+16000 11.9236991405 1341.87 q/s (func. annotation)
+16500 12.0868461132 1365.12 q/s (func. annotation)
+17000 12.2405610085 1388.83 q/s (func. annotation)
+17500 12.4528770447 1405.30 q/s (func. annotation)
+18000 12.6157782078 1426.78 q/s (func. annotation)
+18500 12.7452180386 1451.52 q/s (func. annotation)
+19000 12.8863811493 1474.42 q/s (func. annotation)
+19500 13.0041310787 1499.52 q/s (func. annotation)
+20000 13.1331391335 1522.87 q/s (func. annotation)
+20500 13.2952270508 1541.91 q/s (func. annotation)
+21000 13.4258830547 1564.14 q/s (func. annotation)
+[1;34m Processed queries:21063 total_time:13.5054910183 rate:1559.59 q/s[0m
+[32mDone[0m
+   Pinctada_fucata.eggnog.emapper.seed_orthologs
+   Pinctada_fucata.eggnog.emapper.annotations
+Total time: 1871.96 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Pinctada_fucata_martensii
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Pinctada_fucata_martensii.fa -o Pinctada_fucata_martensii.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Pinctada_fucata_martensii.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_IWfTw1/af51c54fd39f48ca935def9342813895 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.799617052078 625.30 q/s (func. annotation)
+1000 1.5513150692 644.61 q/s (func. annotation)
+1500 2.07089400291 724.32 q/s (func. annotation)
+2000 2.62405514717 762.18 q/s (func. annotation)
+2500 3.04917216301 819.89 q/s (func. annotation)
+3000 3.61657810211 829.51 q/s (func. annotation)
+3500 4.25578212738 822.41 q/s (func. annotation)
+4000 4.81517696381 830.71 q/s (func. annotation)
+4500 5.5327501297 813.34 q/s (func. annotation)
+5000 6.21789717674 804.13 q/s (func. annotation)
+5500 6.4327750206 855.00 q/s (func. annotation)
+6000 6.61980700493 906.37 q/s (func. annotation)
+6500 7.12519598007 912.26 q/s (func. annotation)
+7000 7.55348515511 926.72 q/s (func. annotation)
+7500 8.04359912872 932.42 q/s (func. annotation)
+8000 8.3455581665 958.59 q/s (func. annotation)
+8500 8.59133601189 989.37 q/s (func. annotation)
+9000 8.70528817177 1033.85 q/s (func. annotation)
+9500 8.81636309624 1077.54 q/s (func. annotation)
+10000 8.93597316742 1119.07 q/s (func. annotation)
+10500 9.07596802711 1156.90 q/s (func. annotation)
+11000 9.40516996384 1169.57 q/s (func. annotation)
+11500 9.63227701187 1193.90 q/s (func. annotation)
+12000 10.0158121586 1198.11 q/s (func. annotation)
+12500 10.1235079765 1234.75 q/s (func. annotation)
+13000 10.2790629864 1264.71 q/s (func. annotation)
+13500 10.3925821781 1299.00 q/s (func. annotation)
+14000 10.5604450703 1325.70 q/s (func. annotation)
+14500 10.743142128 1349.70 q/s (func. annotation)
+15000 10.8504371643 1382.43 q/s (func. annotation)
+15500 10.9640381336 1413.71 q/s (func. annotation)
+16000 11.2526500225 1421.89 q/s (func. annotation)
+16500 11.6042280197 1421.90 q/s (func. annotation)
+17000 11.7598941326 1445.59 q/s (func. annotation)
+17500 11.8969759941 1470.96 q/s (func. annotation)
+18000 11.9739000797 1503.27 q/s (func. annotation)
+18500 12.0517730713 1535.04 q/s (func. annotation)
+19000 12.1286411285 1566.54 q/s (func. annotation)
+19500 12.2956960201 1585.92 q/s (func. annotation)
+20000 12.4527881145 1606.07 q/s (func. annotation)
+20500 12.8580801487 1594.33 q/s (func. annotation)
+21000 13.0132479668 1613.74 q/s (func. annotation)
+21500 13.1393280029 1636.31 q/s (func. annotation)
+[1;34m Processed queries:21716 total_time:13.2276439667 rate:1641.71 q/s[0m
+[32mDone[0m
+   Pinctada_fucata_martensii.eggnog.emapper.seed_orthologs
+   Pinctada_fucata_martensii.eggnog.emapper.annotations
+Total time: 1998.68 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Pomacea_canaliculata
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Pomacea_canaliculata.fa -o Pomacea_canaliculata.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Pomacea_canaliculata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_T737bG/844b958cd3d84111979eca4176bbfe61 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.893527984619 559.58 q/s (func. annotation)
+1000 1.63885188103 610.18 q/s (func. annotation)
+1500 2.69329285622 556.94 q/s (func. annotation)
+2000 3.78519892693 528.37 q/s (func. annotation)
+2500 4.77610993385 523.44 q/s (func. annotation)
+3000 5.6894299984 527.29 q/s (func. annotation)
+3500 6.51078796387 537.57 q/s (func. annotation)
+4000 6.63897705078 602.50 q/s (func. annotation)
+4500 6.74667096138 667.00 q/s (func. annotation)
+5000 6.86821603775 727.99 q/s (func. annotation)
+5500 6.99157500267 786.66 q/s (func. annotation)
+6000 7.16526699066 837.37 q/s (func. annotation)
+6500 7.31079387665 889.10 q/s (func. annotation)
+7000 7.43497991562 941.50 q/s (func. annotation)
+7500 7.54676604271 993.80 q/s (func. annotation)
+8000 7.66203188896 1044.11 q/s (func. annotation)
+8500 7.78237485886 1092.21 q/s (func. annotation)
+9000 7.89373087883 1140.15 q/s (func. annotation)
+9500 8.00758600235 1186.38 q/s (func. annotation)
+10000 8.1724050045 1223.63 q/s (func. annotation)
+10500 8.27274799347 1269.23 q/s (func. annotation)
+11000 8.37506389618 1313.42 q/s (func. annotation)
+11500 8.47357583046 1357.16 q/s (func. annotation)
+12000 8.62486481667 1391.33 q/s (func. annotation)
+12500 8.73598003387 1430.86 q/s (func. annotation)
+13000 8.86950492859 1465.70 q/s (func. annotation)
+13500 9.01593184471 1497.35 q/s (func. annotation)
+14000 9.14265489578 1531.28 q/s (func. annotation)
+14500 9.31477499008 1556.67 q/s (func. annotation)
+15000 9.43167591095 1590.39 q/s (func. annotation)
+15500 9.55128788948 1622.82 q/s (func. annotation)
+[1;34m Processed queries:15505 total_time:9.5828769207 rate:1617.99 q/s[0m
+[32mDone[0m
+   Pomacea_canaliculata.eggnog.emapper.seed_orthologs
+   Pomacea_canaliculata.eggnog.emapper.annotations
+Total time: 1873.58 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Pomacea_maculata
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Pomacea_maculata.fa -o Pomacea_maculata.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Pomacea_maculata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_43JHQ2/62b2709ca5874f1ea90b796131daa922 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+[32mFunctional annotation of refined hits starts now[0m
+500 0.852229833603 586.70 q/s (func. annotation)
+1000 1.77292394638 564.04 q/s (func. annotation)
+1500 3.02811002731 495.36 q/s (func. annotation)
+2000 3.91857385635 510.39 q/s (func. annotation)
+2500 5.06428599358 493.65 q/s (func. annotation)
+3000 5.86039495468 511.91 q/s (func. annotation)
+3500 6.18472790718 565.91 q/s (func. annotation)
+4000 6.29631900787 635.29 q/s (func. annotation)
+4500 6.39639902115 703.52 q/s (func. annotation)
+5000 6.53865194321 764.68 q/s (func. annotation)
+5500 6.64444684982 827.76 q/s (func. annotation)
+6000 6.78116703033 884.80 q/s (func. annotation)
+6500 6.88503694534 944.08 q/s (func. annotation)
+7000 7.00858783722 998.77 q/s (func. annotation)
+7500 7.11981105804 1053.40 q/s (func. annotation)
+8000 7.33723592758 1090.33 q/s (func. annotation)
+8500 7.4452009201 1141.68 q/s (func. annotation)
+9000 7.56356406212 1189.92 q/s (func. annotation)
+9500 7.6984360218 1234.02 q/s (func. annotation)
+10000 7.82415795326 1278.09 q/s (func. annotation)
+10500 7.93865084648 1322.64 q/s (func. annotation)
+11000 8.04138588905 1367.92 q/s (func. annotation)
+11500 8.18257403374 1405.43 q/s (func. annotation)
+12000 8.30910396576 1444.20 q/s (func. annotation)
+12500 8.43295788765 1482.28 q/s (func. annotation)
+13000 8.53584194183 1522.99 q/s (func. annotation)
+13500 8.63938498497 1562.61 q/s (func. annotation)
+14000 8.74504804611 1600.91 q/s (func. annotation)
+14500 8.8640999794 1635.81 q/s (func. annotation)
+[1;34m Processed queries:14511 total_time:8.9640789032 rate:1618.79 q/s[0m
+[32mDone[0m
+   Pomacea_maculata.eggnog.emapper.seed_orthologs
+   Pomacea_maculata.eggnog.emapper.annotations
+Total time: 1833.1 secs
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] Fast genome-wide functional annotation through orthology assignment by
+      eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+      Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+      Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods [Internet] 12.
+
+
+(e.g. Functional annotation was performed using emapper-2.0.1 [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed
+ using [3].)
+
+================================================================================
+
+Radix_auricularia
+Killed
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Radix_auricularia.fa -o Radix_auricularia.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Radix_auricularia.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_45JR9V/fdb845232fa24076bde5707176813446 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 1213, in <module>
+    main(args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 226, in main
+    dump_diamond_matches(args.input, seed_orthologs_file, args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 380, in dump_diamond_matches
+    raise e
+subprocess.CalledProcessError: Command '/root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Radix_auricularia.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_45JR9V/fdb845232fa24076bde5707176813446 --top 3 --query-cover 20.0 --subject-cover 0.0' returned non-zero exit status 137
+Saccostrea_glomerata
+Killed
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Saccostrea_glomerata.fa -o Saccostrea_glomerata.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Saccostrea_glomerata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_4wFP92/6b1c57a40796435198c4d0ca12b6f845 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 1213, in <module>
+    main(args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 226, in main
+    dump_diamond_matches(args.input, seed_orthologs_file, args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 380, in dump_diamond_matches
+    raise e
+subprocess.CalledProcessError: Command '/root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Saccostrea_glomerata.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_4wFP92/6b1c57a40796435198c4d0ca12b6f845 --top 3 --query-cover 20.0 --subject-cover 0.0' returned non-zero exit status 137
+Scapharca_Anadara_broughtonii
+Killed
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Scapharca_Anadara_broughtonii.fa -o Scapharca_Anadara_broughtonii.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Scapharca_Anadara_broughtonii.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_FcTfZ_/8a4aa86054324ee4a2df06ec1cbc3100 --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 1213, in <module>
+    main(args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 226, in main
+    dump_diamond_matches(args.input, seed_orthologs_file, args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 380, in dump_diamond_matches
+    raise e
+subprocess.CalledProcessError: Command '/root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Scapharca_Anadara_broughtonii.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_FcTfZ_/8a4aa86054324ee4a2df06ec1cbc3100 --top 3 --query-cover 20.0 --subject-cover 0.0' returned non-zero exit status 137
+Schistosoma_mansoni
+Killed
+/root/miniconda3/envs/funannotate/bin/diamond /root/miniconda3/envs/funannotate/lib/python2.7/site-packages
+#  emapper-2.0.1
+# ./emapper.py  --target_orthologs all --go_evidence non-electronic -m diamond --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override -i /home/yichun/huilab/snail/longest_prot3/Schistosoma_mansoni.fa -o Schistosoma_mansoni.eggnog --output_dir /home/yichun/huilab/snail/eggnog --temp_dir /home/yichun/huilab/snail/eggnog_tmp --database none --cpu 40
+[1;33m  /root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Schistosoma_mansoni.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_1I66kT/c7313ec161544a8d919fa3a255483f3c --top 3 --query-cover 20.0 --subject-cover 0.0[0m
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 1213, in <module>
+    main(args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 226, in main
+    dump_diamond_matches(args.input, seed_orthologs_file, args)
+  File "/root/miniconda3/envs/funannotate/bin/emapper.py", line 380, in dump_diamond_matches
+    raise e
+subprocess.CalledProcessError: Command '/root/miniconda3/envs/funannotate/bin/diamond blastp -d /root/miniconda3/envs/funannotate/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /home/yichun/huilab/snail/longest_prot3/Schistosoma_mansoni.fa --more-sensitive --threads 40 -e 0.001000 -o /home/yichun/huilab/snail/eggnog_tmp/emappertmp_dmdn_1I66kT/c7313ec161544a8d919fa3a255483f3c --top 3 --query-cover 20.0 --subject-cover 0.0' returned non-zero exit status 137
